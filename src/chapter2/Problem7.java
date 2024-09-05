@@ -5,6 +5,7 @@ import java.util.Scanner;
 //minutes (e.g., 1 billion), and displays the maximum number of years and remaining days for the minutes.
 public class Problem7 {
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 		final int DAYS_YEAR = 365;
 		int inputMinutes;
